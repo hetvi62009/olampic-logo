@@ -31,12 +31,12 @@ ctx.stroke();
 
 // Similarly, create a black circle with position 350 and 210
 
-ctx.beginPath;
-ctx.strokeStyle = "black";
-ctx.lineWidth = 5;
-ctx.arc(350,210,height,width);
-ctx.stroke();
 
+ctx.beginPath;
+ctx.strokeStyle = "blue";
+ctx.lineWidth = 5;
+ctx.arc(x, y, r, startAngle, endAngle);
+ctx.stroke();
 
 
 // Similarly, create a red circle with position 210 and 40
@@ -44,7 +44,7 @@ ctx.stroke();
 ctx.beginPath;
 ctx.strokeStyle = "red";
 ctx.lineWidth = 5;
-ctx.arc(210,40,height,width);
+ctx.arc(x, y, r, startAngle, endAngle);
 ctx.stroke();
 
 
@@ -54,7 +54,7 @@ ctx.stroke();
 ctx.beginPath;
 ctx.strokeStyle = "orange";
 ctx.lineWidth = 5;
-ctx.arc(300,250,height,width);
+ctx.arc(x, y, r, startAngle, endAngle);
 ctx.stroke();
 
 // Similarly, create a green circle with position 400 and 250
@@ -62,5 +62,5 @@ ctx.stroke();
 ctx.beginPath;
 ctx.strokeStyle = "green";
 ctx.lineWidth = 5;
-ctx.arc(400,250,height,width);
+ctx.arc(x, y, r, startAngle, endAngle);
 ctx.stroke();
